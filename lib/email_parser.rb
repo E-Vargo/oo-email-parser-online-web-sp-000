@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 
-def parse
+def parser
 @emails.split(" ",",")
 end
 
