@@ -5,6 +5,9 @@
 
 class EmailAddressParser
 
+def initialize(emails)
+end
+
 @emails = ""
 def parse
 @emails.split(","||" ")
