@@ -11,10 +11,7 @@ end
 
 
 def parse
-@emails.split(","||"")
-
-
-
+@emails.split(","||"").join
 end
 
 =begin
