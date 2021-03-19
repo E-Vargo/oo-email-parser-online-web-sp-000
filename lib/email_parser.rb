@@ -5,7 +5,8 @@
 
 class EmailAddressParser
 
-def initialize(@emails)
+def initialize(emails)
+  emails = @emails
 end
 
 @emails = ""
