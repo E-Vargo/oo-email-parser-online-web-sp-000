@@ -8,9 +8,9 @@ class EmailAddressParser
 def initialize(emails)
 end
 
-@emails = ""
+emails = ""
 def parse
-@emails.split(","||" ")
+emails.split(","||" ")
 
 
 
